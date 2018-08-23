@@ -38,8 +38,37 @@ p {
     margin-right: auto;
     line-height: 20px;
     letter-spacing: 1px;
-
 }
+
+.right {
+ float: right;
+ position: relative;
+ display: inline-block;
+}
+
+.drop {
+  color: white;
+}
+
+
+.right-content {
+  display: none;
+position: absolute;
+min-width: 50px;
+z-index: 1;
+font-family: sans-serif;
+color: #fff;
+}
+
+.right-content:hover {
+  display: block;
+position: absolute;
+min-width: 50px;
+z-index: 1;
+font-family: sans-serif;
+color: #fff;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
