@@ -33,21 +33,43 @@ p {
   font-size: 19px;
   font-family: 'terminal_grotesque';
   width: 60%;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
     line-height: 20px;
     letter-spacing: 1px;
 }
 
 .right {
- float: right;
- position: relative;
- display: inline-block;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .drop {
   color: white;
+  display: inline;
+}
+
+.container {
+  padding-left: 48%;
+  padding-top: 4%;
+}
+
+#hover-content {
+    display:none;
+
+}
+
+#hover-me:hover #hover-content {
+    display:block;
+
+}
+
+span {
+  color: rgb(183, 183, 183);
+  font-family: 'terminal_grotesque';
+  text-align: center;
+  opacity: 80%;
+
+
 }
 
 
